@@ -1,0 +1,135 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+
+
+}
+body{
+
+    
+    /* background-color: rgb(226, 97, 198); */
+  background-image: url(./ak\ \(1\).jpg);
+  background-size:  100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-text{
+    position: relative;
+    float: right;
+}
+#add{
+    position: relative;
+    /* float: right; */
+    right: 2px;
+    border: 3px solid black;
+    width: 120px;
+    font-size: 1.1rem;
+    top: 10px;
+    right: 10px;
+    background-color: yellow;
+    border-radius: 12px;
+}
+#add:hover{
+    cursor: pointer;
+    background-color: rgb(155, 34, 94);
+
+}
+.add:active{
+    transform:  scale(0.98);
+}
+.btn-div{
+    text-align: center;
+    margin: 3px 4px;
+    padding: 4px 4px;
+    position: absolute;
+    top: 60px;
+    right: 1px;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+button{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    vertical-align: middle;
+}
+
+.heading{
+    width: 100%;
+    color: rgb(7, 7, 7);
+    background-color: rgb(217, 230, 36);
+    position: relative;
+    top: 0px;
+    height: 60px;
+    margin: 0px -2px;
+    padding: 8px 13px;
+
+
+}
+h1{
+    text-align: center;
+
+}
+
+.hidden{
+    display: none ;
+}
+.fa-trash-alt {
+    height: 20px;
+    width: 30px;
+    border-radius: 10%;
+    color: rgb(3, 3, 3);
+    align-items: center;
+    background-color: rgb(241, 149, 146);
+}
+.fa-edit{
+    color: rgb(12, 12, 11);
+    height: 20px;
+    width: 30px;
+    border-radius: 10%;
+    background-color: rgb(241, 144, 127);
+}
+.main{
+    overflow: hidden;
+    width: 150px;
+    border: 2px solid rgb(211, 9, 36);
+    border-radius: 10px;
+    margin: 4px 5px ;
+    padding: 4px 5px;
+    background-color: rgb(224, 182, 235);
+    font-weight: bold;
+}
+textarea{
+    border: 2px solid rgb(233, 13, 97);
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 5px 6px;
+    padding: 5px 6px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color: rgb(213, 216, 23); */
+    background-image: url(./ak\ \(7\).jpg);
+    background-size: 100%;
+  
+}
+.button-text{
+    text-align: center;
+    margin: 3px 4px;
+    font-weight: bold;
+    padding: 3px 3px;
+}
+.note{
+    margin: 6px 8px;
+    padding: 3px 4px;
+}
